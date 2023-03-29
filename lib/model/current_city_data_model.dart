@@ -4,8 +4,8 @@ class CurrentCityDataModel {
   final String? _cityName, _main, _description, _country;
 
   final double? _long, _lat, _temp, _min_temp, _max_temp, _wind_speed;
-  final int? _pressure, _humidity, _sunRise, _sunSet;
-  final DateTime? _dataTime;
+  final int? _pressure, _humidity, _sunRise, _sunSet,_dataTime;
+
 
   CurrentCityDataModel(
     this._cityName,
